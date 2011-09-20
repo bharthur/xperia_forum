@@ -1,0 +1,52 @@
+body{
+background-color:#C0C0C0;
+margin:auto;
+color: black;
+font-family: Helvetica;
+font-size: 12px;
+}
+
+
+.container{
+background-color:white;
+margin:auto;
+width:890px;
+min-height:540px;
+}
+
+
+li{
+display:inline;
+}
+
+.heading{
+float:left;
+background-color:#800000;
+width:890px;
+height:80px;
+text-align:left;
+}
+
+.hlinks{
+float:left;
+background-color:black;
+width:890px;
+text-align:left;
+}
+
+
+a{
+color: white;
+font-family: Helvetica;
+font-size: 12px;
+font-weight: bold;
+padding-top: 2px;
+text-decoration:none;
+}
+
+ul {
+float: left;
+margin:0;
+padding:0.5em 0;
+
+}
