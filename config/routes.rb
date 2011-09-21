@@ -1,5 +1,9 @@
 XperiaForum::Application.routes.draw do
   
-	match '/', :to => 'pages#home'
+	match "/auth/:provider/callback" => "sessions#create"
+	match "/signout" => "sessions#destroy", :as => :signout
+
+	
+	root :to => 'pages#home'
 
 end
